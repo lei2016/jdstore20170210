@@ -40,6 +40,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'sqlite3'
 end
+
 group :production do
   gem 'pg'
 end
