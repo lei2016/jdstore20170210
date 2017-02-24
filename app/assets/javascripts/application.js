@@ -15,4 +15,9 @@
 //= require turbolinks
 //= require bootstrap/alert
 //= require bootstrap/dropdown
+//= require jquery-1.8.3.min.js
+//= require jquery.banner.js
 //= require_tree .
+$(function(){
+	$(".banner").swBanner();
+});

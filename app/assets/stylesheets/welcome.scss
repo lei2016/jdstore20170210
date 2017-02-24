@@ -1,3 +1,241 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+/*---------------------------故食集---------------------------*/
+.lp-container {
+    background: #fff;
+    height: 700px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.lp-background-img {
+    background: url(https://ww1.sinaimg.cn/large/006tNc79gy1fczkhyi25hj31kw0vt4qp.jpg) no-repeat center 50%;
+    background-size: cover;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    min-width: 1200px;
+    padding-top: 500px;
+}
+.lp-action.btn {
+    background: #eee;
+    color: #FFF;
+    font-size: 1.5em;
+
+    text-align: center;
+    padding: 8px 20px;
+    margin: 0 40% 60px;
+    border-radius: 8px;
+    border: 1px solid #242;
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+}
+.lp-action.btn a{
+  text-decoration: none;
+  color: #242;
+}
+.lp-action.btn:hover{
+  box-shadow: 5px 5px 5px #ccc;
+  transition: 0.5s;
+}
+/*---------------------------今日推荐---------------------------*/
+.remen-title {
+    margin-top: 20px;
+    text-align: center;
+}
+.remen-title h1 {
+    font-size: 30px;
+}
+.remen-title p a {
+    text-decoration: none;
+    font-size: 12px;
+    margin: 8px 5px;
+    padding: 2px;
+    border-radius: 3px;
+    background: #242;
+    color: #fff;
+}
+.remen-title p a:hover {
+  box-shadow: 0px 0px 2px 2px #6cc;
+  transition: 0.2s;
+}
+.container {
+    padding: 10px 120px 5px 120px;
+}
+.thumbnail {
+    padding-bottom: 0px;
+    border: none;
+    border-radius: 5px !important;
+}
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+.bg-1 {
+  border-bottom: 1.5px dashed #999;
+  margin-top: 20px;
+}
+.card-btn {
+  padding: 10px 20px;
+  background-color: #242;
+  color: #fff;
+  border-radius: 0;
+}
+.card-btn:hover {
+  box-shadow: 0px 0px 1px 1px #6cc;
+  color: #fff !important;
+  transition: 0.2s;
+}
+/*---------------------------浏览更多---------------------------*/
+.more-box{
+  display: block;
+  height: 40px;
+  line-height: 43px;
+  background-color: #f3f3f3;
+  color: #999999;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+  margin: 0 0 20px 0;
+}
+/*---------------------------老同学的推荐---------------------------*/
+.banner {
+    width: 100%;
+    top: 0px;
+    overflow: hidden;
+    height: 380px;
+    position: relative;
+}
+
+.banList {
+    position: absolute;
+    left: 50%;
+    margin-left: -800px;
+    height: 470px;
+}
+.banList li {
+    height: 470px;
+    opacity: 0;
+    position: absolute;
+    transform: scale(0);
+    transition: transform 0.5s ease 0s, opacity 1.5s ease 0s;
+    z-index: 1;
+}
+.banList li.active {
+    opacity: 1;
+    transform: scale(1);
+    z-index: 2;
+}
+
+.fomW {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    height: 20px;
+    z-index: 9;
+    width: 1000px;
+    margin-left: -500px;
+}
+
+.jsNav {
+    text-align: center;
+}
+.jsNav a {
+    display: inline-block;
+    background: #666;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    border-radius: 50px;
+}
+.jsNav a.current {
+    background: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+.bot {
+    margin-bottom: 80px;
+}
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+}
+
+.person:hover {
+    border-color: #f1f1f1;
+}
+.carousel-inner {
+    margin-top: -22px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+
+
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+.close,
+.modal-header,
+h4 {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-body,
+.modal-header {
+    padding: 40px 50px;
+}
+
+.open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+textarea {
+    resize: none;
+}
+/*----------------------------------------------------------------------------------------------*/
